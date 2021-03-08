@@ -1,0 +1,22 @@
+body, html{
+    height: 90%;
+}
+
+.backgroundImg{
+    background-image: url(imgs/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.linhaVertical{
+    height: 20px;
+    width: 1px;
+    color: white;
+    display: inline;
+    /* margin-right: 0px; */
+    /* display: inline; */
+}
+
+.opacity{
+    opacity: 89%;
+}
