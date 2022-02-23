@@ -1,0 +1,26 @@
+    função para pintar os quadros pares:
+    
+    function pintarPares(){
+        var quadros = [$(".tabContent")];
+        for(c = 1; c <= quadros.length; c+2){
+            $(quadros[c]).css('background', 'blue');
+        }
+    }
+
+
+
+document e window sao a mesma coisa:
+
+console.log($(document).width());
+console.log($(window).height());
+
+pegar res do monitor:
+
+console.log(window.screen.width);
+console.log(window.screen.height);
+
+
+
+links possivelmente uteis:
+
+https://tableless.github.io/iniciantes/manual/css/overflow.html explicação do overflow
